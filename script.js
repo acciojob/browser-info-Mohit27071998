@@ -1,4 +1,5 @@
 //your JS code here. If required.
-let info =document.getElementById("browser-info")
-info.innerText = `You are using ${navigator.appName} ${navigator.appVersion}`
-document.body.append(info);
+//your JS code here. If required.
+var lname = document.getElementById("browser-info");
+lname.innerText = `You are using ${navigator.appName} version ${navigator.appVersion}`
+document.body.append(lname);
